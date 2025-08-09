@@ -1,10 +1,10 @@
-import timer from "@public/svg/timer.svg";
-import up from "@public/svg/up.svg";
-import thunder from "@public/svg/thunder.svg";
-import skin from "@public/skin.png";
-import normal from "@public/normal.png";
-import atlet from "@public/athlet.png";
-import fat from "@public/fat.png";
+import timer from "../../../public/svg/timer.svg";
+import up from "../../../public/svg/up.svg";
+import thunder from "../../../public/svg/thunder.svg";
+import skin from "../../../public/skin.png";
+import normal from "../../../public/normal.png";
+import atlet from "../../../public/athlet.png";
+import fat from "../../../public/fat.png";
 import { StaticImageData } from "next/image";
 
 export interface Task {

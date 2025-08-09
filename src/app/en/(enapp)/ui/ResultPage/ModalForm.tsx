@@ -1,15 +1,15 @@
 import { Lock, LockIcon, X } from "lucide-react";
 import { useState } from "react";
-import stripe from "@public/stripe-logo.png";
-import cardsBrands from "@public/CardBrand.png";
-import cardLogo from "@public/svg/card-svgrepo-com.svg";
-import payPal from "@public/svg/paypal-svgrepo-com.svg";
+import stripe from "../../../../../../public/stripe-logo.png";
+import cardsBrands from "../../../../../../public/CardBrand.png";
+import cardLogo from "../../../../../../public/svg/card-svgrepo-com.svg";
+import payPal from "../../../../../../public/svg/paypal-svgrepo-com.svg";
 import Image from "next/image";
-import visa from "@public/svg/8408-visa_102499.svg";
-import masterCard from "@public/svg/-mastercard_86833.svg";
-import apex from "@public/svg/1490135020-american-express_82257.svg";
-import crcard from "@public/svg/credit-card-back-side-svgrepo-com.svg";
-import unpay from "@public/659f86dd1e3b7cd69c73a14c_Supported-unionpay.webp";
+import visa from "../../../../../../public/svg/8408-visa_102499.svg";
+import masterCard from "../../../../../../public/svg/-mastercard_86833.svg";
+import apex from "../../../../../../public/svg/1490135020-american-express_82257.svg";
+import crcard from "../../../../../../public/svg/credit-card-back-side-svgrepo-com.svg";
+import unpay from "../../../../../../public/659f86dd1e3b7cd69c73a14c_Supported-unionpay.webp";
 export default function ModalForm({
   setCard,
   setCardFlag,

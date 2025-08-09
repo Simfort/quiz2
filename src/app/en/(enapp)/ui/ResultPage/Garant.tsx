@@ -1,4 +1,4 @@
-import access from "@public/svg/access.svg";
+import access from "../../../../../../public/svg/access.svg";
 import Image from "next/image";
 
 export default function Garant() {

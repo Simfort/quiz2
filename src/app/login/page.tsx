@@ -6,7 +6,7 @@ import { redirect, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-export function validateEmail(email: string) {
+function validateEmail(email: string) {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }

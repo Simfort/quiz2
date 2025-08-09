@@ -1,5 +1,5 @@
 "use client";
-import star from "@public/svg/star.svg";
+import star from "../../../../public/svg/star.svg";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import CommentModal from "./CommentModal";

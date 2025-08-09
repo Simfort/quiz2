@@ -1,5 +1,5 @@
 "use client";
-import star from "@public/svg/star.svg";
+import star from "../../../../../../public/svg/star.svg";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { createPortal } from "react-dom";

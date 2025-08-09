@@ -1,5 +1,5 @@
 "use client";
-import kegel from "@public/Kegel Power v5.png";
+import kegel from "../../public/Kegel Power v5.png";
 import Image from "next/image";
 
 export default function Loading() {

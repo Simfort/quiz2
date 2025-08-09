@@ -1,5 +1,5 @@
 import Image from "next/image";
-import proofImage from "@public/proof-image-ru.8772a0666eff9b3d945e.png";
+import proofImage from "../../../../public/proof-image-ru.8772a0666eff9b3d945e.png";
 
 export default function BeforeAfter() {
   return (

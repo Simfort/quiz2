@@ -1,12 +1,12 @@
 "use client";
-import logo from "@public/Kegel Power v5.png";
+import logo from "../../../public/Kegel Power v5.png";
 import Image from "next/image";
 import BeforeAfter from "../ui/ResultPage/BeforeAfter";
 import SelectPlan from "../ui/ResultPage/SelectPlan";
 import WillPlan from "../ui/ResultPage/WillPlan";
 import Kegel from "../ui/ResultPage/Kegel";
 import Reviews from "../ui/ResultPage/Reviews";
-import multiple from "@public/multiple-institutions.3de131a84e6f5699830e.png";
+import multiple from "../../../public/multiple-institutions.3de131a84e6f5699830e.png";
 import KegelTable from "../ui/ResultPage/KegelTable";
 import CallLive from "../ui/ResultPage/CallLive";
 import MostPopularQuestions from "../ui/ResultPage/MostPopularQuestions";

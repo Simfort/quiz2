@@ -1,6 +1,6 @@
 "use client";
 import { Plan } from "@/app/lib/plans";
-import like from "@public/svg/like.svg";
+import like from "../../../../public/svg/like.svg";
 import Image from "next/image";
 
 export default function PlanItem({

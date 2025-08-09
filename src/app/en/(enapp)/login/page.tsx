@@ -6,7 +6,7 @@ import { redirect, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-export function validateEmail(email: string) {
+function validateEmail(email: string) {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }
@@ -31,7 +31,11 @@ export default function Login() {
             name="email"
             required
             onInvalid={(e) =>
-              e.target.setCustomValidity(
+              (
+                e.target as unknown as {
+                  setCustomValidity: (text: string) => void;
+                }
+              ).setCustomValidity(
                 "The email address must contain the '@' symbol."
               )
             }

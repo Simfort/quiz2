@@ -2,7 +2,7 @@
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@public/Kegel Power v5.png";
+import logo from "../../../../../../public/Kegel Power v5.png";
 import { useParams, useSearchParams } from "next/navigation";
 import { useSelector } from "react-redux";
 import { useEffect, useRef } from "react";

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "@public/Kegel Power v5.png";
+import logo from "../../../../../public/Kegel Power v5.png";
 import { CheckIcon } from "lucide-react";
 
 import { useEffect, useRef, useState } from "react";

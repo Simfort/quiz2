@@ -1,4 +1,4 @@
-import kegel from "@public/kegel.jpeg";
+import kegel from "../../../../public/kegel.jpeg";
 import Image from "next/image";
 
 export default function Kegel() {

@@ -1,6 +1,6 @@
-import logo from "@public/Kegel Power v5.png";
+import logo from "../../../../../../public/Kegel Power v5.png";
 import Image from "next/image";
-import crown from "@public/svg/crown.svg";
+import crown from "../../../../../../public/svg/crown.svg";
 import table from "../../lib/table";
 import { CheckIcon, Lock } from "lucide-react";
 

@@ -1,7 +1,7 @@
-import kegel from "@public/kegel-1.jpg";
-import fitness from "@public/fitness-1.jpg";
-import breathing from "@public/breathing-1.jpg";
-import crown from "@public/svg/crown.svg";
+import kegel from "../../../../../../public/kegel-1.jpg";
+import fitness from "../../../../../../public/fitness-1.jpg";
+import breathing from "../../../../../../public/breathing-1.jpg";
+import crown from "../../../../../../public/svg/crown.svg";
 import Image from "next/image";
 import { willPlans } from "../../lib/plans";
 

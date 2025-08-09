@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import kegel from "@public/Kegel Power v5.png";
-import star from "@public/svg/star.svg";
-import mans from "@public/triple-man.7e81c53c1ad72257decf.png";
+import kegel from "../../../../../public/Kegel Power v5.png";
+import star from "../../../../../public/svg/star.svg";
+import mans from "../../../../../public/triple-man.7e81c53c1ad72257decf.png";
 import Continue from "../ui/buttons/Continue";
 import { useSearchParams } from "next/navigation";
 

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import kegel from "@public/Kegel Power v5.png";
-import star from "@public/svg/star.svg";
+import kegel from "../../public/Kegel Power v5.png";
+import star from "../../public/svg/star.svg";
 import AgeEl from "./ui/AgePage/AgeEl";
-import men1 from "@public/man1.bc3ebbe140ae8bdaf27d.png";
-import men2 from "@public/man2.6f19efbe89efae396a79.png";
-import men3 from "@public/man3.2fb8ec0969d0d25eaf98 (1).png";
-import policy from "@public/svg/policy.svg";
+import men1 from "../../public/man1.bc3ebbe140ae8bdaf27d.png";
+import men2 from "../../public/man2.6f19efbe89efae396a79.png";
+import men3 from "../../public/man3.2fb8ec0969d0d25eaf98 (1).png";
+import policy from "../../public/svg/policy.svg";
 import Link from "next/link";
 
 export default function Home() {

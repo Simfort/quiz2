@@ -27,7 +27,7 @@ export default function Question1({
           1. How can I access my personalized Kegel plan?
         </h2>
         <p>
-          It's simple: choose your goal and take the test created by experts and
+          It`s simple: choose your goal and take the test created by experts and
           physical therapists. After confirming your purchase, you will be
           redirected to the App Store or Google Play Store to download the Kegel
           Men app. Once you download the Kegel Men app, you will have access to

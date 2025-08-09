@@ -1,9 +1,6 @@
 "use client";
 import { Task } from "../../lib/tasks";
-import Image from "next/image";
-
 import { useEffect, useState } from "react";
-import policy from "@public/svg/policy.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { useRouter, useSearchParams } from "next/navigation";
 import { addProgress, setTask } from "@/app/store/actions/task";

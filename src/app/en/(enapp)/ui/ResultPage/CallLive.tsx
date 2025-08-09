@@ -1,6 +1,6 @@
 import Image from "next/image";
-import posts from "@public/posts.png";
-import crown from "@public/svg/crown.svg";
+import posts from "../../../../../../public/posts.png";
+import crown from "../../../../../../public/svg/crown.svg";
 
 export default function CallLive() {
   return (
