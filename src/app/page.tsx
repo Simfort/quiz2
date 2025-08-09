@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import kegel from "../../public/Kegel Power v5.png";
 import star from "../../public/svg/star.svg";
@@ -7,8 +8,20 @@ import men2 from "../../public/man2.6f19efbe89efae396a79.png";
 import men3 from "../../public/man3.2fb8ec0969d0d25eaf98 (1).png";
 import policy from "../../public/svg/policy.svg";
 import Link from "next/link";
+import { useEffect } from "react";
+import { redirect, useSearchParams } from "next/navigation";
+import { useSelector } from "react-redux";
 
 export default function Home() {
+  const search = useSearchParams().toString();
+  const { REDIRECT_FLAG } = useSelector(
+    (state: { task: { REDIRECT_FLAG: boolean } }) => state.task
+  );
+  useEffect(() => {
+    if (!REDIRECT_FLAG) {
+      redirect("/en?" + search);
+    }
+  }, []);
   return (
     <div className="w-[461px] max-lg:w-[300px] pt-[30px] flex flex-col gap-[30px]">
       <header className="flex flex-col fixed top-0 left-0 right-0 bottom-0 h-[100px] p-[10px]  w-1/1 items-center gap-4  bg-[rgb(9,10,36)] z-[1000]">

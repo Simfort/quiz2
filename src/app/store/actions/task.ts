@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   answeredTask: {} as { [key: number | string]: number | string | number[] },
   progress: 5.882352941,
+  REDIRECT_FLAG: false,
 };
 
 const taskSlice = createSlice({
@@ -20,8 +21,11 @@ const taskSlice = createSlice({
     addProgress(state: typeof initialState) {
       state.progress = state.progress + 5.882352941;
     },
+    setREDIRECT_FLAG(state: typeof initialState, action: { payload: boolean }) {
+      state.REDIRECT_FLAG = action.payload;
+    },
   },
 });
 
-export const { setTask, addProgress } = taskSlice.actions;
+export const { setTask, addProgress, setREDIRECT_FLAG } = taskSlice.actions;
 export default taskSlice.reducer;
