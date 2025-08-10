@@ -33,12 +33,12 @@ export default function CardForm({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeIn" }}
-      className="fixed top-0  bottom-0 left-0 right-0 bg-[rgba(0,0,0,0.62)] w-1/1 h-screen flex items-center justify-center">
+      className="fixed top-0  bottom-0 left-0 right-0 bg-[rgba(0,0,0,0.62)] w-1/1 h-screen flex items-center justify-center z-[1000]">
       <form
         action={saveCard}
-        className="bg-[#191a25] p-[51px] max-lg:p-0 gap-2 flex flex-col rounded-[0.3rem]">
+        className="bg-[#191a25] p-[51px] max-lg:items-center max-md:p-[30px] gap-2 flex flex-col rounded-[0.3rem] overflow-y-scroll ">
         {cardFlag ? (
-          <h2 className="text-[32px] w-[500px] max-lg:w-[300px] font-medium text-center max-lg:text-[25px]">
+          <h2 className="text-[32px] w-[500px] max-md:w-[300px] font-medium text-center max-lg:text-[25px]">
             Thank you, the app is currently under development, but you are on
             the waiting list waiting. We will inform you as soon as it is ready
           </h2>
@@ -48,7 +48,7 @@ export default function CardForm({
             <button
               onClick={() => setCloseFlag(true)}
               type="button"
-              className=" h-[30px] cursor-pointer w-[30px] bg-[rgba(223,223,223,0.15)] flex items-center justify-center rounded-full">
+              className=" h-[30px] cursor-pointer w-[30px] bg-[rgba(223,223,223,0.15)] flex items-center self-end justify-center rounded-full">
               <X size={22} />
             </button>
             <h2 className="text-[32px] mb-[20px] font-medium text-center max-lg:text-[25px]">

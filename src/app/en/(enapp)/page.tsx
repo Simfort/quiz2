@@ -18,7 +18,7 @@ export default function Home() {
     dispatch(setREDIRECT_FLAG(true));
   }, []);
   return (
-    <div className="w-[461px] max-lg:w-[300px] pt-[30px] flex flex-col gap-[30px]">
+    <div className="w-[461px] max-md:w-[300px] pt-[30px] flex flex-col gap-[30px]">
       <header className="flex flex-col fixed top-0 left-0 right-0 bottom-0 h-[100px] p-[10px]  w-1/1 items-center gap-4  bg-[rgb(9,10,36)] z-[1000]">
         <Image src={kegel} alt="logo" width={54} />
         <ol className="flex gap-2">

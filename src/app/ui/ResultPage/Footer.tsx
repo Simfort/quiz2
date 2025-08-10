@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-[456px] p-5 mt-[30px] items-center h-[500px] gap-[100px] justify-start flex flex-col">
+    <footer className="w-[456px] max-md:w-[300px] p-5 mt-[30px] items-center h-[500px] gap-[100px] justify-start flex flex-col">
       <p className="text-center  max-lg:w-[300px] text-[14px]">
         Любые вопросы или обратная связь: вы всегда можете связаться с нами по
         адресу{" "}

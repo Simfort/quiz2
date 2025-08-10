@@ -41,8 +41,8 @@ export default function ResultScreen() {
     }
   }, [scrollPosition]);
   return (
-    <main className="flex mt-[140px] w-1/1 items-center flex-col">
-      <section className="w-[476px] max-lg:w-[300px] flex flex-col gap-15">
+    <main className="flex mt-[140px] max-sm:mt-[200px] w-1/1 items-center flex-col">
+      <section className="w-[476px] max-md:w-[300px] flex flex-col gap-15">
         <h4 className="text-[14px] w-1/1 font-bold flex gap-4">
           <Image src={logo} alt="logo" width={32} />
           Kegel Men App

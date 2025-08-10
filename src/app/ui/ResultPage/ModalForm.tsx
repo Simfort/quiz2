@@ -118,7 +118,7 @@ export default function ModalForm({
           }}
           type="submit"
           className={` w-1/1
-        bg-[#16B693] mt-[20px] h-[57px] gap-2 cursor-pointer text-[18px] rounded-[1rem] flex items-center justify-center font-bold max-lg:w-[300px]`}>
+        bg-[#16B693] mt-[20px] h-[57px] gap-2 cursor-pointer text-[18px] rounded-[1rem] flex items-center justify-center font-bold `}>
           <Lock size={20} />
           ПРОДОЛЖИТЬ
         </button>

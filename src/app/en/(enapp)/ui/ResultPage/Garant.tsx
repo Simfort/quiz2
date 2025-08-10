@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Garant() {
   return (
-    <section className="w-1/1 h-[283px] bg-[#232537] p-[12.8px] rounded-[1.5rem] relative flex">
+    <section className="w-1/1 min-h-[283px] bg-[#232537] p-[12.8px] rounded-[1.5rem] relative flex">
       <div className="h-1/1 w-1/1 border-[#007aff] flex flex-col items-center border-[1px] rounded-[1.5rem]">
         <Image
           src={access}

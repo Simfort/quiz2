@@ -22,7 +22,7 @@ export default function HeaderResult() {
     };
   }, []);
   return (
-    <header className="bg-[#000212] z-10 flex w-1/1 fixed top-0 bottom-0 right-0 left-0 gap-10 max-lg:flex-col justify-center items-center h-[100px] max-lg:h-[150px] max-lg:flex-wrap max-lg:gap-5">
+    <header className="bg-[#000212] z-10 flex w-1/1 fixed top-0 bottom-0 right-0 left-0 gap-10 max-lg:flex-col justify-center items-center h-[100px] max-lg:h-[150px] max-md:gap-0">
       <h2 className="font-bold text-[28px]">Осталось время для скидки:</h2>
       <div>
         <div className="text-[#26d1a3] max-lg:text-[25px] text-[32px] font-bold flex gap-2">

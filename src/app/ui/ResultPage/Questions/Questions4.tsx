@@ -12,7 +12,7 @@ export default function Question4({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeIn" }}
-      className="fixed top-0  bottom-0 left-0 right-0 bg-[rgba(0,0,0,0.62)] w-1/1 h-screen flex items-center justify-center">
+      className="fixed top-0 z-[1000]  bottom-0 left-0 right-0 bg-[rgba(0,0,0,0.62)] w-1/1 h-screen flex items-center justify-center">
       <motion.section
         initial={{ translateY: "-100px" }}
         animate={{ translateY: "0px" }}

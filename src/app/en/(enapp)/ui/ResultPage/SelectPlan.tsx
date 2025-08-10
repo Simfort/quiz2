@@ -11,7 +11,7 @@ export default function SelectPlan({ added }: { added: boolean }) {
   return (
     <section className="flex flex-col items-center gap-2 w-1/1">
       <h3 className="text-[20px] font-bold text-center">Choose your plan</h3>
-      <ul className="w-1/1 gap-3 flex flex-col">
+      <ul className="w-1/1 gap-3 flex flex-col items-center">
         {plans.map((val, i) => (
           <PlanItem
             key={i}

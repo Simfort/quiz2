@@ -23,7 +23,7 @@ export default function KegelTable() {
       <div className="w-1/1 bg-[rgb(94,100,126)] h-[1px]"></div>
       <ul className="flex flex-col gap-5">
         {table.map((val, i) => (
-          <div key={i} className="flex justify-between   text-[15px]">
+          <div key={i} className="grid grid-cols-3  text-[15px]">
             <div className="flex gap-2">{val.title}</div>
             <div className="flex w-[190px]  items-center justify-around w">
               <p className="flex justify-center">

@@ -9,7 +9,12 @@ export default function KegelTable() {
     <section className="bg-[rgb(25,26,38)] rounded-[0.625rem] gap-5 flex flex-col p-[20.6px]">
       <div className="flex justify-between font-bold   text-[13px]">
         <div className="flex gap-2">
-          <Image width={24} src={logo} alt="logo" />
+          <Image
+            width={24}
+            src={logo}
+            alt="logo"
+            className="max-md:w-[30px] max-md:h-[40px]"
+          />
           Kegel Men App
         </div>
         <div className="flex gap-7 items-center">
@@ -23,7 +28,7 @@ export default function KegelTable() {
       <div className="w-1/1 bg-[rgb(94,100,126)] h-[1px]"></div>
       <ul className="flex flex-col gap-5">
         {table.map((val, i) => (
-          <div key={i} className="flex justify-between   text-[15px]">
+          <div key={i} className="grid grid-cols-3  text-[15px]">
             <div className="flex gap-2">{val.title}</div>
             <div className="flex w-[190px]  items-center justify-around w">
               <p className="flex justify-center">
