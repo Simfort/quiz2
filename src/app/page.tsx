@@ -56,13 +56,13 @@ export default function Home() {
             Выбирая свой возраст и продолжая, вы соглашаетесь с нашими
           </span>{" "}
           <Link
-            href="https://kegelman.app/terms-of-use"
+            href="https://www.termsfeed.com/live/2b2a27ed-1a1c-4ada-b6b8-d5a6cdc246f3"
             className="text-[#007aff]">
             Условиями использования{" "}
           </Link>
           |
           <Link
-            href="https://kegelman.app/privacy-policy"
+            href=" https://www.termsfeed.com/live/c61a8a44-f66d-4669-ad9f-faee10d11010"
             className="text-[#007aff]">
             {" "}
             Политика конфиденциальности.
